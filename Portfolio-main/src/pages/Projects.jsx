@@ -2,11 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import FYP from '../assets/projects/FYP.gif'
-import WEBSTORE from '../assets/projects/WEBSTORE.gif'
-import DOSSHELL from "../assets/projects/dos.gif"
-import EXCEL from "../assets/projects/excel.gif"
-import CAFE from "../assets/projects/cafeteria.gif"
+import FYP from '../assets/projects/FYP.gif';
+import WEBSTORE from '../assets/projects/WEBSTORE.gif';
+import DOSSHELL from "../assets/projects/dos.gif";
+import EXCEL from "../assets/projects/excel.gif";
+import CAFE from "../assets/projects/cafeteria.gif";
+import ECOMMERCE from "../assets/projects/ecomerceVideo.mp4";
+import EXCELVIDEO from "../assets/projects/excelvideo.mp4";
+import DOSVIDEO from "../assets/projects/dosvideo.mp4";
 const Projects = () => {
   return (
     <Container fluid className="project-section">
@@ -26,6 +29,7 @@ const Projects = () => {
               imgPath={CAFE}
               isBlog={false}
               title="CAFE"
+              videoPath = {ECOMMERCE}
               description="The project is designed to manage a cafeteria. Admin can Add,Update,Delete Products in the cafe and the users can buy products from this. After buying the products user can also leave a review about the product."
             />
           </Col>
@@ -36,6 +40,7 @@ const Projects = () => {
               imgPath={DOSSHELL}
               isBlog={false}
               title="DSA MidProject"
+              videoPath = {DOSVIDEO}
               description="This is mini DOS Shell made by using different data structures like tree,linkedlist etc. It also contains a text editor."
             />
           </Col>
@@ -46,6 +51,7 @@ const Projects = () => {
               imgPath={WEBSTORE}
               isBlog={false}
               title="Endless Runner"
+              videoPath = {ECOMMERCE}
               description="project involved developing a game called Endless Runner on the Unity game engine. The project enabled him to learn various basic techniques of game development, such as designing game levels, creating game objects, implementing game mechanics, and integrating sound effects. The Endless Runner game had a simple objective of running as far as possible without colliding with obstacles, and the game difficulty increased as the player progressed. The project allowed Abdul Sami to gain hands-on experience in game development and paved the way for further exploration of the game development field."
             />
           </Col>
@@ -55,6 +61,7 @@ const Projects = () => {
               imgPath={FYP}
               isBlog={false}
               title="FYP Management System"
+              videoPath = {ECOMMERCE}
               description="The project involved the development of a desktop-based application that utilized SQL for efficient management of student records, faculty information, course details, and attendance tracking for a department. This console-based application provided an intuitive and user-friendly interface, which streamlined data management for department staff. Through this project, the practical applications of database management were showcased, emphasizing its significance in real-world scenarios. By utilizing SQL for data storage, retrieval, and manipulation, the project highlighted the numerous benefits of database management in the modern era, such as improved data security, easy data access, and efficient data manipulation."
             />
           </Col>
@@ -64,6 +71,7 @@ const Projects = () => {
               imgPath={EXCEL}
               isBlog={false}
               title="Instagram Ui Clone"
+              videoPath = {EXCELVIDEO}
               description="This is a mini Excel desginged by using quad linked list data structure."
             />
           </Col>
